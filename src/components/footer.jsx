@@ -46,18 +46,8 @@ const footerSections = [
     title: "Resources",
     links: [
       {
-        label: "FAQs",
-        path: "/#resources/faqs",
-        icon: "fas fa-question-circle",
-      },
-      {
-        label: "Library Catalog",
-        path: "/#resources/catalog",
-        icon: "fas fa-book",
-      },
-      {
         label: "Get the mobile app (APK)",
-        path: "/apk/librosync-app.apk",
+        path: "https://expo.dev/artifacts/eas/3XDfjr1tzC8oXjk4UogZEY.apk",
         icon: "fas fa-download",
         isButton: true,
       },
@@ -70,7 +60,7 @@ const Footer = () => {
     <footer
       className="text-white shadow-lg"
       style={{
-        background: "linear-gradient(to right, #2C2C3E, #43435E)", // custom palette
+        background: "linear-gradient(to right, #2C2C3E, #43435E)",
       }}
     >
       <div className="container mx-auto px-6 py-16">
